@@ -1,40 +1,52 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #dee6ee 
+align-content: center 
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- card: 
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- card:
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- end: ftd.column
 
--- ds.h3: 🚀 Fast Track 
+-- component card:
+caption title: default 
+body description: default 
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
 
 
--- ds.h3: 🎯 Used by?
+-- ftd.image:
+src: cyb.jpg
+padding.px: 10
+width.fixed.px: 350
+height.fixed.px: 320
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.column:
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
+padding.px: 10
+style: bold 
+-- ftd.text: $card.description 
+role: $inherited.types.copy-regular
+-- ftd.text: HITEC City was commissioned by the erstwhile combined Government of Andhra Pradesh,In 1997,The then Chief Minister N.Chandra Babu Naidu travelled to Southeast Asia to meet potential investors and to ‘market the state'.Naidu initiated a $350 million knowledge enclave in Hyderabad.
+style: italic, regular
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- end: ftd.column
 
--- ds.h2: Learn fastn and become a pro?
+-- end: ftd.row
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- end: card
 
--- end: ds.page
+
+
+
